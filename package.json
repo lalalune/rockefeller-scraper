@@ -1,0 +1,24 @@
+{
+  "name": "scraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "scrape": "node scrape.js",
+    "process": "node process.js",
+    "postprocess": "node postprocess.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@json2csv/node": "^6.1.2",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.2",
+    "objects-to-csv": "^1.3.6",
+    "openai": "^3.2.1",
+    "puppeteer": "^2.0.0",
+    "puppeteer-extra": "^3.1.9",
+    "puppeteer-extra-plugin-stealth": "^2.4.9"
+  }
+}
